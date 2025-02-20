@@ -282,6 +282,57 @@ button {
   /* Не повторює зображення */
 }
 
+
+.text-block53 {
+  font-weight: 600;
+  font-size: 30px;
+  leading-trim: Cap height;
+  line-height: 36px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+.paragraf-block53 {
+  font-weight: 500;
+  font-size: 28px;
+  leading-trim: Cap height;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(205, 202, 208, 1);
+
+}
+
+.block-dva53 {
+  padding-top: 140px;
+}
+
+.text-caren {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 6px;
+  text-align: center;
+  color: rgba(205, 202, 208, 1);
+  text-transform: uppercase;
+}
+
+.price-bloced {
+  padding-top: 30px;
+}
+
+.price {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 28px;
+  leading-trim: Cap height;
+  line-height: 36px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(31, 218, 255, 1);
+}
+
 .service-card img {
 
   margin-top: 49px;
