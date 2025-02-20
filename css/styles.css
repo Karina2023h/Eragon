@@ -318,6 +318,11 @@ button {
 }
 
 
+.faq-image-button {
+  background: none;
+  text-align: center;
+  display: flex;
+}
 
 /* section-block7 */
 
