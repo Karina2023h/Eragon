@@ -316,6 +316,7 @@ button {
   text-align: center;
   color: rgba(205, 202, 208, 1);
   text-transform: uppercase;
+  margin-top: -5px;
 }
 
 .price-bloced {
