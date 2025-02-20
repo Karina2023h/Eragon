@@ -235,7 +235,7 @@ button {
   font-weight: 600;
   font-size: 80px;
   leading-trim: Cap height;
-  line-height: 97.52px;
+  line-height: 0.52px;
   letter-spacing: -1%;
   color: rgba(227, 19, 115, 1);
 }
@@ -254,6 +254,19 @@ button {
   color: rgba(227, 19, 115, 1);
 }
 
+.faq-answer {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+
+  text-decoration-thickness: Auto;
+  color: rgba(227, 19, 115, 1);
+}
+
 .faq-question-span {
   font-family: Montserrat;
   font-weight: 500;
@@ -262,8 +275,49 @@ button {
   line-height: 28px;
   letter-spacing: 0%;
   color: rgba(205, 202, 208, 1);
-  text-decoration: none;
+  text-decoration: none !important;
+
 }
+
+.faq-item {
+  width: 34%;
+}
+
+.faq-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
+  margin-top: -200px;
+}
+
+
+.faq-image1 {
+  margin-top: 33px;
+
+}
+
+.faq-image3 {
+  margin-top: 33px;
+}
+
+.image-wrapper {}
+
+.highlighted-image {
+  top: -120px;
+  left: 0px;
+  position: relative;
+
+}
+
+.highlighted-image1 {
+  top: -107px;
+  left: 0px;
+  position: relative;
+}
+
+
 
 /* section-block7 */
 
