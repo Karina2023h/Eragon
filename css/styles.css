@@ -196,7 +196,116 @@ button {
   width: 500px;
 }
 
-/*  */
+/* section-block5 */
+
+.section-block5 {
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+
+.text-block5 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77.52px;
+  letter-spacing: -1%;
+  text-align: center;
+  background: linear-gradient(90deg, #5700B1 31.42%, #5155C4 40.69%, #00B6E9 47.73%, #5DBED6 53.48%, #C17A97 57.59%, #E31373 62.35%, #E31373 68.49%);
+  -webkit-background-clip: text;
+  /* Кліп градієнта по тексту */
+  -webkit-text-fill-color: transparent;
+  /* Робить фон тексту прозорим для градієнта */
+  text-transform: uppercase;
+
+}
+
+.paragraf-block5 {
+  font-weight: 500;
+  font-size: 30px;
+  leading-trim: Cap height;
+  line-height: 0px;
+  text-transform: uppercase;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(205, 202, 208, 1);
+}
+
+.block5-all {
+  padding-top: 104px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.text-block5-1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 30px;
+  leading-trim: Cap height;
+  line-height: 36px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+/* Карточки */
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.service-card {
+  background-image: url('../img/Group\ 131344.png');
+  /* Шлях до вашого зображення */
+  background-size: contain;
+  /* Покриває весь елемент */
+  background-position: center;
+  /* Центрує зображення */
+  background-repeat: no-repeat;
+  /* Не повторює зображення */
+  width: 382px;
+  height: 393px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+.service-card:hover {
+  background-image: url('../img/Rectangle\ 2707.png');
+  background-size: contain;
+  /* Покриває весь елемент */
+  background-position: center;
+  /* Центрує зображення */
+  background-repeat: no-repeat;
+  /* Не повторює зображення */
+}
+
+.service-card img {
+
+  margin-top: 49px;
+}
+
+.service-card h4 {
+  font-weight: 600;
+  font-size: 26px;
+  leading-trim: Cap height;
+  line-height: 36px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.service-card p {
+  font-weight: 500;
+  font-size: 23px;
+  leading-trim: Cap height;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(205, 202, 208, 1);
+}
 
 /* section-block6 */
 
